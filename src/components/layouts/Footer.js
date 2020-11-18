@@ -1,13 +1,21 @@
-import React from 'react'
-import prismicLogo from '../../images/logo-prismic.svg'
+import React from "react"
+import yakLogo from "../../images/unnamed.jpg"
 
-export default () =>
+export default () => (
   <footer className="container">
     <p>
-      Proudly published with <a href="https://prismic.io" target="_blank" rel="noopener noreferrer">Prismic</a>
-      <br/>
+      Designed by{" "}
+      <a
+        href="https://theorangeyak.co"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        The Orange Yak Company
+      </a>
+      <br />
       <a href="https://prismic.io" target="_blank" rel="noopener noreferrer">
-      <img className="footer-logo" src={ prismicLogo } alt="Gray Prismic logo"/>
+        <img className="footer-logo" src={yakLogo} alt="Gray Prismic logo" />
       </a>
     </p>
   </footer>
+)
